@@ -1,0 +1,6 @@
+framework module Pods_Award_Bureau {
+  umbrella header "Pods-Award Bureau-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.XIB" version="3.0" toolsVersion="14113" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="appleTV" orientation="landscape">
+        <adaptation id="light"/>
+    </device>
+    <dependencies>
+        <deployment identifier="tvOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ABCollectionCategoryTableViewCell" id="fBs-An-CcD" customClass="ABCollectionCategoryTableViewCell" customModule="Award_Bureau" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="138" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fBs-An-CcD" id="S0Q-fX-qc8">
+                <rect key="frame" x="0.0" y="0.0" width="122" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Upf-n3-spl">
+                        <rect key="frame" x="0.0" y="0.0" width="138" height="50"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                        <color key="textColor" red="0.84705882349999995" green="0.058823529409999999" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.40000000000000002" green="0.0" blue="0.015686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="right" secondItem="Upf-n3-spl" secondAttribute="right" id="7sD-lE-8Rx"/>
+                    <constraint firstAttribute="bottom" secondItem="Upf-n3-spl" secondAttribute="bottom" id="EOX-Ov-fXR"/>
+                    <constraint firstItem="Upf-n3-spl" firstAttribute="leading" secondItem="S0Q-fX-qc8" secondAttribute="leading" id="Lan-Xd-ect"/>
+                    <constraint firstItem="Upf-n3-spl" firstAttribute="top" secondItem="S0Q-fX-qc8" secondAttribute="top" id="xgf-l3-S6i"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="1ks-Xo-ai1"/>
+            <connections>
+                <outlet property="lbl_categoryName" destination="Upf-n3-spl" id="q9S-wH-9Zf"/>
+            </connections>
+            <point key="canvasLocation" x="103" y="107"/>
+        </tableViewCell>
+    </objects>
+</document>
